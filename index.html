@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan Hulamani - BCA Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" style="padding-top: 10px;">
+                <a href="#home"><img src="me.jpg" alt="Darshan Hulamani" width="60px" height="60px" style="border-radius: 50%;">&nbsp;Darshan Hulamani</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <div class="avatar-placeholder">
+                        <span>👨‍💻</span>
+                    </div>
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Darshan Hulamani</span></h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text">BCA Graduate</span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate BCA student from Dharwad, specializing in programming, embedded systems, and web development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="#contact" class="btn btn--outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a BCA Graduate from Dharwad, Karnataka, with a passion for technology and innovation. 
+                        My journey in computer applications has led me to explore various domains including programming, 
+                        machine learning, and web development.
+                    </p>
+                    <p>
+                        Currently pursuing my Bachelor's in Computer Applications, I have developed expertise in multiple 
+                        programming languages including C, MySQL and Python. My interests extend beyond traditional 
+                        programming to include machine learning development, particularly in deep learning projects like Emotion Recognition.
+                    </p>
+                    <p>
+                        I'm also experienced in web development technologies, working with modern frameworks and tools 
+                        like WordPress, Elementor, and various development environments. My goal is to leverage these 
+                        skills to build innovative solutions and contribute to the tech industry.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number">3</span>
+                            <span class="highlight-label">Years of Study</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">5+</span>
+                            <span class="highlight-label">Programming Languages</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">5</span>
+                            <span class="highlight-label">Projects Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">C</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Web Technologies</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">WordPress</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Hardware</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">VS Code</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">OpenCV</span>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Machine Learning</span>
+                            <span class="skill-percentage">35%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="35"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <span class="project-category">Machine Learning</span>
+                    </div>
+                    <h3 class="project-title">Emotion Based Music Player</h3>
+                    <p class="project-description">
+                        Developed an AI-based app using OpenCV and MySQL that
+                        detects user emotions via webcam and plays mood-based
+                        music. Managed project planning, team coordination, and
+                        documentation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/darshan-hulamani/mano-raaga" target="_blank"  class="btn btn--sm btn--primary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💻</div>
+                        <span class="project-category">Frontend Development</span>
+                    </div>
+                    <h3 class="project-title">E-Commerce Website (Frontend)</h3>
+                    <p class="project-description">
+                        Developed the responsive frontend for The Vyle, an e-commerce 
+                        platform, using HTML, CSS, and JavaScript, featuring intuitive 
+                        navigation, product listings, and a seamless checkout interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/darshan-hulamani/E-Commerce-Website-The-Vyle-Frontend" target="_blank"  class="btn btn--sm btn--primary">Source Code</a>
+                        <a href="https://the-vyle-fashion-brand.on.drv.tw/www.TheVyle!Brand.com/" target="_blank"  class="btn btn--sm btn--primary" style="margin-left: 5px;">Demo Link</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🌐</div>
+                        <span class="project-category">Web Development</span>
+                    </div>
+                    <h3 class="project-title">E-Commerce Website (Full-Stack)</h3>
+                    <p class="project-description">
+                        The Vyle! is a fully developed and hosted e-commerce website built using WordPress. Designed with Elementor and powered by WooCommerce, the site is easily manageable from the backend by the owner without coding.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">Elementor</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/darshan-hulamani/The_Vyle_E-Commerce_Website/" target="_blank"  class="btn btn--sm btn--primary">Source Code</a>
+                        <a href="https://the-vyle-business.42web.io/" target="_blank"  class="btn btn--sm btn--primary" style="margin-left: 5px;">Demo Link</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">⛅</div>
+                        <span class="project-category">JavaScript</span>
+                    </div>
+                    <h3 class="project-title">Weather Forecast</h3>
+                    <p class="project-description">
+                        Created a weather app using OpenWeatherMap API to show
+                        real-time data with unit conversion. Handled front-end
+                        integration, API calls, and maintained feature logs
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">OpenWeatherMap API</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/darshan-hulamani/Weather-Forecast" target="_blank"  class="btn btn--sm btn--primary">Source Code</a>
+                        <a href="https://darshan-hulamani.github.io/Weather-Forecast/" target="_blank"  class="btn btn--sm btn--primary" style="margin-left: 5px;">Demo Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Degree -->
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">🎓</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">BCA (Bachelor of Computer Applications)</h3>
+                            <span class="timeline-date">2022-2025</span>
+                        </div>
+                        <div>
+                            <h4 class="timeline-subtitle"><b>Karnataka University Dharwad (KUD)</b></h4>
+                        </div>
+                        <div class="timeline-header">
+                            <h4 class="timeline-subtitle">JSS Shri Manjunatheshwara Institute of UG & PG Studies, Dharwad</h4>
+                        </div>
+                        <p class="timeline-description">
+                            Focused on software development, web technologies, and machine learning.
+                            Completed some projects including an academic project Mano-Raaga (Emotion Recognition Music Player).
+                            <br><br><b>CGPA: 9.04</b>
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight-badge">BCA Graduate</span>
+                            <span class="highlight-badge">Programming Focus</span>
+                            <span class="highlight-badge">Project-Based Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PUC -->
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">🎓</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title"> Senior Secondary (XII)</h3>
+                            <span class="timeline-date">2021-2022</span>
+                        </div>
+                        <div>
+                            <h4 class="timeline-subtitle"><b>Karnataka Secondary Education Examination Board (KSEEB)</b></h4>
+                        </div>
+                        <div class="timeline-header">
+                            <h4 class="timeline-subtitle">JSS R S Hukkerikar College, Dharwad</h4>
+                        </div>
+                        <p class="timeline-description">
+                            <b>Marks: 536/600
+                            <br>Percentage: 89.33%</b>
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight-badge">Commerce</span>
+                            <span class="highlight-badge">Non-CS</span>
+                            <span class="highlight-badge">EBAS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- School -->
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">🎓</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Secondary (X)</h3>
+                            <span class="timeline-date">2019-2020</span>
+                        </div>
+                        <div>
+                            <h4 class="timeline-subtitle"><b>Karnataka Secondary Education Examination Board(KSEEB)</b></h4>
+                        </div>
+                        <div class="timeline-header">
+                            <h4 class="timeline-subtitle">JSS Shri Manjunatheshwara English Medium School, Dharwad</h4>
+                        </div>
+                        <p class="timeline-description">
+                            <b>Marks: 510/625
+                            <br>Percentage: 81.6%</b>
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight-badge">SSLC</span>
+                            <span class="highlight-badge">State Board</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Have any suggestions to leave? I'd love to hear from you!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Dharwad, Karnataka, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>darshanhulamani77@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 88671 09603</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-link" aria-label="Portfolio">
+                            <span>💼</span>
+                        </a>
+                        <a href="https://github.com/Darshan-Hulamani" target="_blank" class="social-link" aria-label="GitHub">
+                            <span><img src="github.png" alt="" width="25px" height="25px" align="center"></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/darshan-hulamani" target="" class="social-link" aria-label="LinkedIn">
+                            <span><img src="linkedin.png" alt="" width="25px" height="25px" align="center"></span>
+                        </a>
+                        <a href="mailto:darshanhulamani77@gmail.com" class="social-link" aria-label="Email">
+                            <span><img src="gmail.png" alt="" width="25px" height="25px" align="center"></span>
+                        </a>
+                    </div>
+                </div>
+                <!-- <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    <div class="form-status" id="form-status"></div>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <span>↑</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Darshan N Hulamani. All rights reserved.</p>
+                <p>Built with passion and modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
