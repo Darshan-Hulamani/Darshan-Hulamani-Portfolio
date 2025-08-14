@@ -1515,6 +1515,10 @@ section {
     font-size: var(--font-size-2xl);
   }
 
+  .contact-content{
+    margin: 0 0;
+  }
+  
   .timeline-item {
     flex-direction: column;
     align-items: center;
