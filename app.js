@@ -526,3 +526,48 @@ function initImageModal() {
         }
     });
 }
+
+
+// Flame JS
+function initFlameCursor() {
+  const flameContainer = document.getElementById('flame-container');
+
+  if (!flameContainer) return;
+
+  let lastX = 0;
+  let lastY = 0;
+
+  window.addEventListener('mousemove', e => {
+    const dx = e.clientX - lastX;
+    const dy = e.clientY - lastY;
+
+    if (Math.abs(dx) + Math.abs(dy) < 5) return;
+
+    lastX = e.clientX;
+    lastY = e.clientY;
+
+    const particle = document.createElement('div');
+    particle.className = 'flame-particle';
+
+    // Custom CSS properties for random motion
+    particle.style.setProperty('--x-offset', (Math.random() * 20 - 10).toFixed(2));
+    particle.style.setProperty('--rotate', (Math.random() * 20 - 10).toFixed(2));
+
+    // Position particle slightly behind cursor tip
+    const offsetX = +4;
+    const offsetY = 18;
+
+    particle.style.left = `${e.clientX + offsetX}px`;
+    particle.style.top = `${e.clientY + offsetY}px`;
+
+    flameContainer.appendChild(particle);
+
+    particle.addEventListener('animationend', () => {
+      flameContainer.removeChild(particle);
+    });
+  });
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  initFlameCursor();
+});

@@ -2268,3 +2268,41 @@ html {
   background: var(--color-primary);
   color: white;
 }
+
+/*Flame Glitter CSS*/
+#flame-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 9999;
+}
+
+.flame-particle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(ellipse at center, rgba(255,140,0,1) 0%, rgba(255,69,0,0.7) 70%, transparent 50%);
+  border-radius: 50% / 100%;
+  filter: drop-shadow(0 0 6px orange);
+  opacity: 1;
+  transform-origin: bottom center;
+  animation: flame-move 800ms ease forwards;
+}
+
+@keyframes flame-move {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translate(calc(var(--x-offset) * 1px), calc(-10px)) scale(1.2) rotate(calc(var(--rotate) * 1deg));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(var(--x-offset) * 2px), calc(-30px)) scale(0.5) rotate(calc(var(--rotate) * 2deg));
+  }
+}
