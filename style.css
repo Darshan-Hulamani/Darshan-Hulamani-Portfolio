@@ -317,7 +317,7 @@ html[data-color-scheme="light"] .btn--secondary:hover,
 html[data-color-scheme="light"] .card:hover,
 html[data-color-scheme="light"] .btn--outline:hover,
 html[data-color-scheme="light"] .nav-link:hover {
-  cursor: url('hover-light.png'), pointer;
+  cursor: url('images/hover-light.png'), pointer;
 }
 
 /* Dark mode hover cursor */
@@ -339,7 +339,7 @@ html[data-color-scheme="dark"] .btn--secondary:hover,
 html[data-color-scheme="dark"] .card:hover,
 html[data-color-scheme="dark"] .btn--outline:hover,
 html[data-color-scheme="dark"] .nav-link:hover {
-  cursor: url('hover-dark.png'), pointer;
+  cursor: url('images/hover-dark.png'), pointer;
 }
 
 
