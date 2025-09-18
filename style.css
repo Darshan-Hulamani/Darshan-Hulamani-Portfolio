@@ -297,6 +297,52 @@
   --color-info-rgb: var(--color-slate-500-rgb);
 }
 
+
+/* Light mode hover cursor */
+html[data-color-scheme="light"] .btn:hover,
+html[data-color-scheme="light"] .theme-toggle:hover,
+html[data-color-scheme="light"] .gallery-nav:hover,
+html[data-color-scheme="light"] .image-modal-close:hover,
+html[data-color-scheme="light"] .social-link:hover,
+html[data-color-scheme="light"] .achievement-card:hover,
+html[data-color-scheme="light"] .thumbnail:hover,
+html[data-color-scheme="light"] .back-to-top:hover,
+html[data-color-scheme="light"] .certificate-verify-link:hover,
+html[data-color-scheme="light"] .certificate-card:hover, 
+html[data-color-scheme="light"] .view-image-btn:hover,
+html[data-color-scheme="light"] a:hover,
+html[data-color-scheme="light"] .project-card:hover,
+html[data-color-scheme="light"] .btn--primary:hover,
+html[data-color-scheme="light"] .btn--secondary:hover,
+html[data-color-scheme="light"] .card:hover,
+html[data-color-scheme="light"] .btn--outline:hover,
+html[data-color-scheme="light"] .nav-link:hover {
+  cursor: url('hover-light.png'), pointer;
+}
+
+/* Dark mode hover cursor */
+html[data-color-scheme="dark"] .btn:hover,
+html[data-color-scheme="dark"] .theme-toggle:hover,
+html[data-color-scheme="dark"] .gallery-nav:hover,
+html[data-color-scheme="dark"] .image-modal-close:hover,
+html[data-color-scheme="dark"] .social-link:hover,
+html[data-color-scheme="dark"] .achievement-card:hover,
+html[data-color-scheme="dark"] .thumbnail:hover,
+html[data-color-scheme="dark"] .back-to-top:hover,
+html[data-color-scheme="dark"] .certificate-verify-link:hover,
+html[data-color-scheme="dark"] .certificate-card:hover, 
+html[data-color-scheme="dark"] .view-image-btn:hover,
+html[data-color-scheme="dark"] a:hover,
+html[data-color-scheme="dark"] .project-card:hover,
+html[data-color-scheme="dark"] .btn--primary:hover,
+html[data-color-scheme="dark"] .btn--secondary:hover,
+html[data-color-scheme="dark"] .card:hover,
+html[data-color-scheme="dark"] .btn--outline:hover,
+html[data-color-scheme="dark"] .nav-link:hover {
+  cursor: url('hover-dark.png'), pointer;
+}
+
+
 /* Base styles */
 html {
   font-size: var(--font-size-base);
