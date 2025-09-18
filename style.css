@@ -207,6 +207,9 @@
 
 /* Data attribute for manual theme switching */
 [data-color-scheme="dark"] {
+
+  cursor: url('images/navigation-dark.png'), auto;
+  
   /* RGB versions for opacity control (dark mode) */
   --color-gray-400-rgb: 119, 124, 124;
   --color-teal-300-rgb: 50, 184, 198;
@@ -264,6 +267,9 @@
 }
 
 [data-color-scheme="light"] {
+
+  cursor: url('images/navigation-light.png'), auto;
+  
   /* RGB versions for opacity control (light mode) */
   --color-brown-600-rgb: 94, 82, 64;
   --color-teal-500-rgb: 33, 128, 141;
