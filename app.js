@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Typewriter Effect
 function initTypewriter() {
     const typingElement = document.getElementById('typing-text');
-    const texts = ['BCA Student', 'Programming Enthusiast', 'Machine Learning Beginner', 'Web Developer'];
+    const texts = ['MCA Student', 'Programming Enthusiast', 'Machine Learning Beginner', 'Web Developer'];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
